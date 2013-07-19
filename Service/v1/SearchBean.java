@@ -22,7 +22,7 @@ import javax.sql.DataSource;
  * @author Admin
  */
 @Stateless
-public class SearchBean implements Searcher {
+public class SearchBean2 implements Searcher {
 
     @Resource(name = "drugdata")
     DataSource drugdata;
